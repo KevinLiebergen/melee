@@ -23,6 +23,10 @@ Attackers are abusing MySQL instances for conducting nefarious operations on the
 
 ```Requirements
 $ pip3 install mysql-connector
+$ python3 -m pip install python-geoip-geolite2
+$ python3 -m pip install python-geoip-python3
+$ python3 -m pip3 install maxminddb 
+$ python3 -m pip3 install maxminddb-geolite2
 ```
 
 ## Tool Usage

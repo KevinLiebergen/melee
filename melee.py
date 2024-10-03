@@ -97,7 +97,6 @@ def get_geoip_details(ip_address):
     else:
         print("[-] could not fetch the geolocation details of the ip_address:"
               "", ip_address)
-        pass 
 
 
 def check_anonymous_access(cnx):
@@ -342,31 +341,36 @@ if __name__ == "__main__":
 
         module = args.m
 
-        # get_geoip_details(db_hostname)
         cnx = connect_mysql(args.u, args.P, args.i, args.p)
 
         if module == "check_anonymous_access":
             print("[*] executing module: check_anonymous_access...\n")
+            get_geoip_details(args.i)
             check_anonymous_access(cnx)
 
         if module == "deep_scan_ransomware_infection":
             print("[*] executing module: deep_scan_ransomware_infection...\n")
+            get_geoip_details(args.i)
             deep_scan_ransomware_infection(cnx, args.i)
 
         if module == "enum_mysql_db_names":
             print("[*] executing module: enum_mysql_db_names .....\n")
+            get_geoip_details(args.i)
             enum_mysql_db_names(cnx)
 
         if module == "enum_mysql_db_users":
             print("[*] executing module: enum_mysql_db_users .....\n")
+            get_geoip_details(args.i)
             enum_mysql_db_users(cnx)
 
         if module == "enum_active_users":
             print("[*] executing module: enum_active_users .....\n")
+            get_geoip_details(args.i)
             enum_active_users(cnx)
 
         if module == "enum_mysql_db_tables":
             print("[*] executing module: enum_mysql_db_tables...\n")
+            get_geoip_details(args.i)
             enum_mysql_db_tables(cnx)
 
         if cnx.is_connected():
