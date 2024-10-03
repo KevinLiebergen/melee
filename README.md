@@ -19,6 +19,11 @@ Attackers are abusing MySQL instances for conducting nefarious operations on the
 * MySQL ransomware detection and scanning for both unauthenticated and authenticated deployments
 
 --------------
+## Installation
+
+```Requirements
+$ pip3 install mysql-connector
+```
 
 ## Tool Usage
 
