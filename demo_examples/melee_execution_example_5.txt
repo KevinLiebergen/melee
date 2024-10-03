@@ -1,4 +1,4 @@
-$ python3 melee.py 54.205.121.137 3306 root "" check_ransomware_infection
+$ python3 melee.py -i 218.48.83.191 -p 3306 -u root -P "" -m check_ransomware_infection
 	--------------------------------------------------------------------
 
 

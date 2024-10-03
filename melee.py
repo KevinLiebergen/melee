@@ -1,5 +1,11 @@
 #!/usr/bin/python
 
+# Original code by Aditya K Sood (adityaks) and Rohit Bansal
+# from https://github.com/adityaks/melee.
+#
+# Modified by KevinLiebergen on October/2024.
+
+
 '''
 Original BSD License (BSD with advertising)
 

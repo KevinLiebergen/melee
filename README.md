@@ -70,6 +70,11 @@ $ python3 melee.py
 
 ```
 
+# Contributors
+
+- [adityaks](https://github.com/adityaks) - Original creator
+- [Kevinliebergen](https://github.com/kevinliebergen) - Fork and modifications
+
 --------------
 
 Researched and Developed By Aditya K Sood and Rohit Bansal 
